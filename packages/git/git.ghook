@@ -1,3 +1,0 @@
-macro no_main {
-    block_if {git:branch} == "main"
-}
