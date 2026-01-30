@@ -1,3 +1,7 @@
 macro no_main {
     block if git.branch.name == "main"
 }
+
+macro no_develop {
+    block if git.branch.name == "develop"
+}
